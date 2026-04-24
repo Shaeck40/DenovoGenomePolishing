@@ -1,8 +1,8 @@
 import pysam
 
-in_bam = "/mnt/c/Users/Sarah/Documents/Internship/WGS_output/A2_output_lr_OPENPvsOPENP/data/reference.bam"
-out_bam = "/mnt/c/Users/Sarah/Documents/Internship/Denovo_genome_polishing/51kbpins/reference_filtered_reflength.bam"
-min_span = 25000  # alignment span ≥ 25 kb
+in_bam 
+out_bam 
+min_span = 25000  # alignment span ≥ 25 kbp
 
 with pysam.AlignmentFile(in_bam, "rb") as infile, \
      pysam.AlignmentFile(out_bam, "wb", template=infile) as outfile:
