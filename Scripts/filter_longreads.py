@@ -1,7 +1,7 @@
 import pysam
 
-in_bam = "/mnt/c/Users/Sarah/Documents/Internship/WGS_output/A2_output_lr_OPENPvsOPENP/data/reference.bam"
-out_bam = "/mnt/c/Users/Sarah/Documents/Internship/Denovo_genome_polishing/reference_filtered.bam"
+in_bam = input bamfile
+out_bam = output bamfile
 min_len = 2500  # reads ≥ 2500 bp
 
 with pysam.AlignmentFile(in_bam, "rb") as infile, \
