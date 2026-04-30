@@ -28,8 +28,8 @@ def compare_vcfs(output_csv="vcf_comparison.csv",
                  unique_vcf1="unique_to_vcf1.vcf",
                  unique_vcf2="unique_to_vcf2.vcf"):
     
-    vcf1_path = "/home/sarah/Internship_CMB_VIB/vcf_files/aln_NCBIv2_vs_newCBS.vcf"
-    vcf2_path = "/home/sarah/Internship_CMB_VIB/vcf_files/aln_NCBIv2_vs_OPENPichia.vcf"
+    vcf1_path = path to vcf1
+    vcf2_path = path to vcf2
 
     vcf1, headers1 = parse_vcf(vcf1_path)
     vcf2, headers2 = parse_vcf(vcf2_path)
